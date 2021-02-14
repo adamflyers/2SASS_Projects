@@ -1,8 +1,5 @@
 @import "./header";
 @import "./variables";
 .contact {
-    align-items: center;
-    button {
-        background: $primaryBtn;
-    }
+    @include flexCenter (row, blue);
 }

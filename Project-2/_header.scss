@@ -9,9 +9,7 @@
 
 header {
     @include flexCenter(column, red);
-    background: lightblue;
-    height: 100vh;
-    color: $textcolor;
+    color: $textColor;
     button {
         background: $primaryBtn;
         &::after {
