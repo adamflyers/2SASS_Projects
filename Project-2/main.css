@@ -1,0 +1,28 @@
+.contact button {
+  background: #e96969;
+}
+
+header {
+  background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-content: center;
+  color: #e96969;
+}
+
+header button {
+  background: #e96969;
+}
+
+header button:hover {
+  background-color: red;
+}
+
+header button::after {
+  content: "Hellooo";
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,8 @@
+@import "./header";
+@import "./variables";
+.contact {
+    align-items: center;
+    button {
+        background: $primaryBtn;
+    }
+}
