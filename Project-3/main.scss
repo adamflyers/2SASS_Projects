@@ -1,56 +1,53 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    a {
-        float: left;
-        color: #f2f2f2;
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        &:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        &:active {
-            background-color: #4CAF50;
-            color: white;
-        }
     }
-}
-
-.paragraph {
-    text-align: justify;
-    color: brown;
-    background-color: antiquewhite;
-    padding: 5px;
-    p {
-        text-align: justify;
-        padding: 3px;
-        margin: 4px;
-    }
-}
-
-.countries {
-    table {
-        border-color: hsl(240, 100%, 50%);
-        border-collapse: collapse;
-        border-style: double;
-        margin: 3px;
-        padding: 5px;
-        width: 800px;
-        height: 400px;
-        text-align: center;
-        tr {
-            nth-child(even) {
-                background-color: #f2f2f2;
+    
+    .navmenu {
+        overflow: hidden;
+        background-color: #333;
+        a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            &:hover {
+                background-color: #ddd;
+                color: black;
             }
+            &:active {
+                background-color: #4CAF50;
+                color: white;
+            }
+        }
+    }
+    
+    .paragraph {
+        text-align: justify;
+        color: brown;
+        background-color: antiquewhite;
+        padding: 5px;
+        p {
+            text-align: justify;
+            padding: 3px;
+            margin: 4px;
+        }
+    }
+    
+    .countries {
+        table {
+            border-color: hsl(240, 100%, 50%);
+            border-collapse: collapse;
+            border-style: double;
+            margin: 3px;
+            padding: 5px;
+            width: 800px;
+            height: 400px;
+            text-align: center;
+            tr {}
             th {
                 border-style: solid;
                 color: red;
@@ -61,4 +58,14 @@ body {
             }
         }
     }
-}
+    
+    .footer {
+        align-items: center;
+        float: inline-end;
+        a {
+            &:hover {
+                color: blueviolet;
+                text-decoration: none;
+            }
+        }
+    }
