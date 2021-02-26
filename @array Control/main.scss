@@ -1,0 +1,18 @@
+$bisque: bisque;
+$green: green;
+$blue: blue;
+$pink: pink;
+$brown: brown;
+$array: $bisque,
+$green,
+$blue,
+$pink,
+$brown;
+@for $i from 1 to ($dizi) {
+    .item-#{$i} {
+        background: nth($array, $i);
+        margin: 5px;
+        height: 100px;
+        padding-top: 25px;
+    }
+}
