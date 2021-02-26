@@ -1,0 +1,23 @@
+$size: 10px;
+$padding: 3px;
+$bisque: bisque;
+$green: green;
+$pink: pink;
+$blue: blue;
+p {
+    @if size==6 {
+        background-color: $bisque;
+        padding: $padding;
+        color: $bisque;
+    }
+    @else if ($size<2) {
+        background-color: $green;
+        padding: $padding;
+        color: $bisque;
+    }
+    @else {
+        background-color: $pink;
+        padding: $padding;
+        color: $blue
+    }
+}
