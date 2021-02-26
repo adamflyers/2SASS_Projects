@@ -1,16 +1,7 @@
-@for $i from 1 to 6 {
+@for $i from 1 to 5 {
     .item-#{$i} {
-        height: 50px * i;
-        margin: 5px * $i;
-        background-color: aqua;
-        margin-top: 15px;
-    }
-}
-
-@for $i from 1 through 5 {
-    .item-#{$i} {
-        height: 50px * i;
-        margin: 5px * $i;
+        height: 50px * $i;
+        padding: 5px * $i;
         background-color: aqua;
         margin-top: 15px;
     }
