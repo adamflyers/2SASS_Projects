@@ -1,0 +1,9 @@
+@mixin mybox($myColor, $height: 15px) {
+    color: #44B1DB;
+    border: $height dotted brown;
+    width: 500px;
+}
+
+.style {
+    @include mybox($myColor: #77C1EF, $height: 5px);
+}
