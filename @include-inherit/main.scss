@@ -1,0 +1,15 @@
+.email {
+    border: 3px solid #abc;
+    padding: 5px;
+    color: #345, ;
+}
+
+.good {
+    @extend .email;
+    border-color: yellowgreen;
+}
+
+.bad {
+    @extend .email;
+    border-color: darkcyan
+}

@@ -1,0 +1,14 @@
+.email, .good, .bad {
+  border: 3px solid #abc;
+  padding: 5px;
+  color: #345;
+}
+
+.good {
+  border-color: yellowgreen;
+}
+
+.bad {
+  border-color: darkcyan;
+}
+/*# sourceMappingURL=main.css.map */
